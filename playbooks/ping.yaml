@@ -1,0 +1,6 @@
+---
+- name: Ping raspberry pi
+  hosts: all
+
+  tasks:
+    - ping:
